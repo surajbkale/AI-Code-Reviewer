@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+.pnpm
+.cache/
+dist/
+build/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Debug
+.vscode/
+.idea/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Output of 'npm pack'
+*.tgz
+
+# TypeScript (if used)
+*.tsbuildinfo
+
+# Local MongoDB or database files
+dump/
+data/
+
+# PM2 process logs
+pids/
+*.pm2.log
+
+# Next.js (if using server-rendered frontend)
+.next/
+
+# Other
+uploads/
